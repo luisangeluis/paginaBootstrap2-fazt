@@ -7,3 +7,14 @@
 .navbar .nav-item .nav-link{
     color: white;
 }
+
+.main-header{
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    min-height: 500px;
+}
+
+.background-overlay{
+    background-color:rgb(48,51,107,.7);
+
+}
