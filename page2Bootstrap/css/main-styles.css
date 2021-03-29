@@ -38,22 +38,31 @@
 .main-header{
     background-image: url(../img/background.jpg);
     background-size: cover;
-    min-height: 500px;
+    min-height: 600px;
+    /*
+    position: relative;   
+    */
+    position: relative;    
 }
 
 .background-overlay{
-    background-color:rgb(48,51,107,.7);
-    height: 100%;
-    position: relative;
-    bottom: 0;
-
-    
-    
-}
-.background-overlay .container{
-    background-color:rgb(48,51,107,.7);
+    background-color:rgba(48,51,107,.7);
+    /*
     position: absolute;
+    top:0;
+    bottom: 0;
+    width: 100%;
+    */
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
 
-    
 }
+
+.form-control, .btn{
+    border-radius: 0;
+}
+
 
